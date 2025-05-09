@@ -29,3 +29,5 @@
 
 # cal([49,80,100,2,51,65])
 
+name = str(input("Enter name : ")) 
+print("Hello : ",name)
