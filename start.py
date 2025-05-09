@@ -43,3 +43,16 @@ def Test (param1) :
 
 
 Test(99)
+
+#------------------------------------------------------------#
+
+name = str(input("Enter name : ")) 
+print("Hello : ",name)
+
+#------------------------------------------------------------#
+
+number = int(input("Enter Number 1-10 : "))
+if number == 9 :
+    print("Correct")
+else :
+    print("Not Correct!")
