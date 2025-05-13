@@ -63,3 +63,12 @@ number = int(input("Enter number :"))
 for i in range(1,13):
     result = number*i
     print(number,"x",i,"=",result)
+
+#------------------------------------------------------------#
+
+number = int(input("Enter Baht : ")) 
+usd = number / 33.41 
+print(f"{number} baht = {usd:.2f} usd")
+
+#------------------------------------------------------------#
+
