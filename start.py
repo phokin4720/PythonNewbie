@@ -56,3 +56,10 @@ if number == 9 :
     print("Correct")
 else :
     print("Not Correct!")
+
+#------------------------------------------------------------#
+
+number = int(input("Enter number :"))
+for i in range(1,13):
+    result = number*i
+    print(number,"x",i,"=",result)
